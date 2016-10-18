@@ -20,12 +20,10 @@ nav {
 	box-sizing: border-box;
 }
 .col1 {
-	background-color: #afbacc;
-	border-right: 1px solid #afbacc;
+	background-color: #fff;
 	width: 18%;
 	height: 100%;
 	padding: 2%;
-	margin: 0 auto;
 }
 .col2 {
 	background-color: #fff;
@@ -100,7 +98,6 @@ img.display {
     display: none;
     position: absolute;
 		width: 100%;
-		background-color: #afbacc;
 }
 
 .dropdown:hover .dropdown-col {
