@@ -4,7 +4,6 @@ body {
 	margin: 0;
 }
 nav {
-	position: fixed;
 	background-color: #fff;
 	width: 100%;
 	border-bottom: 1px solid #afbacc;
@@ -57,4 +56,9 @@ li a {
 li a:hover {
     background-color: #afbacc;
 		color: #fff;
+}
+
+img.display {
+	display: block;
+	margin: 0 auto;
 }
