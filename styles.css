@@ -22,8 +22,8 @@ nav {
 	background-color: #fff;
 	border-right: 1px solid #afbacc;
 	width: 30%;
-	padding: 3%;
-
+	padding: 2%;
+	margin: 0 auto;
 }
 .col2 {
 	background-color: #fff;
@@ -61,4 +61,26 @@ li a:hover {
 img.display {
 	display: block;
 	margin: 0 auto;
+}
+
+/*animation test*/
+
+#fade {
+    -webkit-animation: fadein 3s;
+       -moz-animation: fadein 3s;
+}
+
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-moz-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+@-webkit-keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
 }
