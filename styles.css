@@ -96,10 +96,27 @@ img.display {
 
 .dropdown-col {
     display: none;
-    position: absolute;
 		width: 100%;
 }
 
 .dropdown:hover .dropdown-col {
     display: block;
+}
+
+/*media breakpoint*/
+
+@media screen and (max-width:804px) {
+	.wrapper {
+		width: 100%;
+		height: 100%;
+	}
+	.col {
+			width: 100%;
+	}
+	.col1 {
+		width: 100%;
+	}
+	.col2 {
+		width: 100%;
+	}
 }
